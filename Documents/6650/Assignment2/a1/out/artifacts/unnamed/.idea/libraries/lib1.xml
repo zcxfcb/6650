@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/main_war_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/main_war_exploded/WEB-INF/lib/gson-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

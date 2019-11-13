@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <servlet>
+    <servlet-name>SkierServlet</servlet-name>
+    <servlet-class>SkierServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SkierServlet</servlet-name>
+    <url-pattern>/skiers/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ServiceServlet</servlet-name>
+    <servlet-class>ServiceServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ServiceServlet</servlet-name>
+    <url-pattern>/resorts/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StatsServlet</servlet-name>
+    <servlet-class>ServiceServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StatsServlet</servlet-name>
+    <url-pattern>/statistics/*</url-pattern>
+  </servlet-mapping>
+</web-app>
