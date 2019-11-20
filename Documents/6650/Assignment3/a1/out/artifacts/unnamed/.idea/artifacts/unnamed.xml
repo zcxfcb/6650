@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="a1" />
+          <element id="module-output" name="main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.0" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.18" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.7.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.7.0" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="a1/web/Web" />
+      <element id="javaee-facet-resources" facet="a1/web/Web2" />
+      <element id="javaee-facet-resources" facet="a1/web/Web3" />
+      <element id="javaee-facet-resources" facet="a1/web/Web4" />
+    </root>
+  </artifact>
+</component>
